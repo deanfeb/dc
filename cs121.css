@@ -1,0 +1,94 @@
+A:link    { text-decoration:none; color:blue; }
+A:visited { text-decoration:none; color:blue; }
+A:hover   { text-decoration:underline; color:red; }
+A:active  { text-decoration:underline; color:red; }
+
+#wht         { text-decoration:none; color:#e8e8f0; }
+#wht:visited { text-decoration:none; color:#e8e8f0; }
+#wht:hover   { text-decoration:underline; color:yellow; }
+#wht:active  { text-decoration:underline; color:red; }
+
+#blk         { text-decoration:none; color:black; }
+#blk:visited { text-decoration:none; color:black; }
+#blk:hover   { text-decoration:underline; color:red; }
+#blk:active  { text-decoration:underline; color:red; }
+
+body {
+ font-family:Arial, Helvetica, sans-serif;
+ font-size:9pt;
+ background-color:#e8e8f0;
+ border:0px;
+ scrollbar-base-color:#e8e8f0;
+ scrollbar-3dlight-color:#f0f0ff;
+ scrollbar-arrow-color:#405080;
+ scrollbar-darkshadow-color:#405080;
+ scrollbar-face-color:#e8e8f0;
+ scrollbar-highlight-color:#f0f0ff;
+ scrollbar-shadow-color:#405080;
+ scrollbar-track-color:#e8e8f0;
+}
+
+h1  { margin:8px; font-size:18pt; font-weight:bold; text-align:center; }
+h2  { margin:8px; font-size:12pt; font-weight:bold; text-align:center; }
+pre { font-family:"Courier New", monospace; font-size:10pt; }
+
+body.menu  { margin:0px; background-color:#405080; color:#e8e8f0; scrollbar-track-color:#405080; }
+table.menu { vertical-align:top; background-color:#405080; }
+td.menu    { font-size:8pt; color:#ffffff; padding-top:1px; padding-left:5px; padding-bottom:1px; padding-right:5px; }
+td.menua   { font-size:13pt; font-weight:bold; color:#f0f090; padding-top:8px; padding-left:10px; padding-bottom:1px; padding-right:2px; }
+td.menub   { font-size:9pt; font-weight:bold; color:#e8f0f8; padding-top:1px; padding-left:25px; padding-bottom:1px; padding-right:2px; }
+
+body.status  { background-color:#405080; margin-left:0px; margin-bottom:1px; margin-top:12px; margin-right:20px; }
+table.status { background-color:#e8e8f0; }
+td.status    { color:#000000; vertical-align:middle; font-size:10pt; padding-top:2px; padding-left:3px; padding-bottom:2px; padding-right:1px; }
+td.status3   { color:#000000; vertical-align:middle; font-size:10pt; padding:4px; }
+
+body.main  { margin:6px; }
+table.main { border:thin solid #405080; }
+table.mainx { border-left:thin solid #405080; }
+table.main2 { border:thin solid #405080; background-color:#e8e8f0; color:#000000; }
+th.main    { vertical-align:top; background-color:#405080; color:#e8e8f0; font-size:10pt; font-weight:bold; padding-top:2px; padding-left:2px; padding-bottom:2px; padding-right:5px; }
+td.maina   { vertical-align:top; font-size:9pt; font-weight:bold; padding-top:2px; padding-left:4px; padding-bottom:1px; padding-right:5px; }
+td.mainb   { vertical-align:top; font-size:9pt; padding-top:2px; padding-left:5px; padding-bottom:1px; padding-right:2px; }
+td.mainac  { vertical-align:middle; font-size:9pt; font-weight:bold; padding-top:2px; padding-left:5px; padding-bottom:1px; padding-right:2px; color:#000000; }
+td.mainbc  { vertical-align:middle; font-size:9pt; padding-top:2px; padding-left:5px; padding-bottom:1px; padding-right:2px; }
+td.tab1    { vertical-align:middle; font-size:10pt; font-weight:bold; padding-top:2px; padding-left:5px; padding-bottom:3px; padding-right:5px; border-right:thin solid #405080; }
+td.tab2    { vertical-align:middle; background-color:#405080; color:#e8e8f0; font-size:10pt; font-weight:bold; padding-top:2px; padding-left:5px; padding-bottom:3px; padding-right:5px; border-right:thin solid #e8e8f0; }
+td.tab3    { vertical-align:middle; background-color:#405080; color:#e8e8f0; font-size:10pt; font-weight:bold; padding-top:2px; padding-left:5px; padding-bottom:3px; padding-right:5px; }
+
+tr.event1  { background-color:#d8d8e0; }
+tr.event2  { background-color:#e8e8f0; }
+th.event   { text-align:center; vertical-align:middle; font-size:8pt; font-weight:bold; padding-top:2px; padding-left:4px; padding-bottom:1px; padding-right:5px; }
+td.event   { text-align:center; white-space:pre; vertical-align:top; font-size:9pt; padding-top:2px; padding-left:4px; padding-bottom:1px; padding-right:5px; }
+td.eventb  { text-align:center; white-space:pre; vertical-align:top; font-size:9pt; font-weight:bold; padding-top:2px; padding-left:4px; padding-bottom:1px; padding-right:5px; }
+
+td.sman   { vertical-align:middle; text-align:center; font-size:8pt; padding:0px; }
+td.sman2  { vertical-align:bottom; text-align:center; font-size:8pt; padding:0px; }
+td.smon   { vertical-align:middle; text-align:center; font-size:8pt; padding-top:0px; padding-left:1px; padding-bottom:0px; padding-right:1px; }
+td.smon2  { vertical-align:bottom; text-align:center; font-size:8pt; padding-top:0px; padding-left:1px; padding-bottom:0px; padding-right:1px; }
+
+body.help { margin:6px; background-color:#e8e8f0; }
+
+td.bar    { white-space:pre; vertical-align:middle; font-size:9pt; font-weight:bold; padding-top:2px; padding-left:4px; padding-bottom:1px; padding-right:5px; }
+
+.ctrl  { z-index:1; font-family:Arial, Helvetica, sans-serif; font-size:9pt; }
+.ctrl2 { z-index:1; font-family:Arial, Helvetica, sans-serif; font-size:9pt; margin:2px; }
+.ctrl3 { z-index:1; font-family:Arial, Helvetica, sans-serif; font-size:7pt; }
+.error { color:red; }
+.nojs  { color:red; background-color:black; margin:8px; font-size:12pt; font-weight:bold; text-align:center; padding:8px; border-width:4px; border-style:solid; border-color:red; }
+.mini  { font-size:7pt; }
+.big   { font-size:14pt; }
+.gbar  { background-color:#00ee00; border:thin outset #00ee00; }
+.bluebar{background-color:#0000ee; border:thin outset #0000ee; }
+.rbar  { background-color:#ee0000; border:thin outset #ee0000; }
+.ybar  { background-color:#eeee00; border:thin outset #eeee00; }
+.obar  { background-color:#FFA500; border:thin outset #FFA500; }
+.grbar { background-color:#dddddd; border:thin outset #dddddd; }
+.gbar2 { border:thin outset #00ee00; }
+.rbar2 { border:thin outset #ee0000; }
+.ybar2 { border:thin outset #eeee00; }
+
+.tt  { position:absolute; display:none; z-index:9; color:black; background-color:#FFFFC0; border:1px solid #000000; padding:2px; font-family:verdana,arial,helvetica; font-size:11px; }
+.tt2 { position:absolute; display:none; z-index:9; color:black; background-color:#8888FF; border:1px solid #000000; padding:2px; font-family:verdana,arial,helvetica; font-size:11px; -moz-opacity: 0.7; filter: alpha(Opacity=70); }
+
+.hidden { display:none; }
