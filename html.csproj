@@ -67,21 +67,6 @@
     <Content Include=".editorconfig" />
     <Content Include="application\.htaccess" />
     <Content Include="application\cache\.htaccess" />
-    <Content Include="application\config\assetstatus_model.php" />
-    <Content Include="application\config\autoload.php" />
-    <Content Include="application\config\config.php" />
-    <Content Include="application\config\constants.php" />
-    <Content Include="application\config\database.php" />
-    <Content Include="application\config\doctypes.php" />
-    <Content Include="application\config\foreign_chars.php" />
-    <Content Include="application\config\hooks.php" />
-    <Content Include="application\config\memcached.php" />
-    <Content Include="application\config\migration.php" />
-    <Content Include="application\config\mimes.php" />
-    <Content Include="application\config\profiler.php" />
-    <Content Include="application\config\routes.php" />
-    <Content Include="application\config\smileys.php" />
-    <Content Include="application\config\user_agents.php" />
     <Content Include="application\controllers\AssetStatus.php" />
     <Content Include="application\controllers\ups.php" />
     <Content Include="application\controllers\Welcome.php" />
@@ -488,7 +473,6 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="application\cache\index.html" />
-    <Content Include="application\config\index.html" />
     <Content Include="application\controllers\index.html" />
     <Content Include="application\core\index.html" />
     <Content Include="application\helpers\index.html" />
